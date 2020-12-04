@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background-color: antiquewhite;
+    margin-left: 30.99999%;
+    margin-right: 30.99999%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chessimg {
+    float: right;
+    border: 2px solid black;
+}
+
+.rulesp {
+    margin-right: 20em;
+    font-size: 19px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-shadow: .5px .5px gray;
+}
