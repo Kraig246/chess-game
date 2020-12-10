@@ -20,23 +20,23 @@
     <!-- Playing Board -->
     <div id="playContent">
 <!-- 8th Row -->
-        <div class="white" id="8A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackRook1" draggable="true">&#9820;</span></div>
-        <div class="black" id="8B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKnight1" draggable="true">&#9822;</span></div>
-<div class="white" id="8C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackBishop1" draggable="true">&#9821;</span></div>
-<div class="black" id="8D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackQueen" draggable="true">&#9819;</span></div>
-<div class="white" id="8E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKing" draggable="true">&#9818;</span></div>
-<div class="black" id="8F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackBishop2" draggable="true">&#9821;</span></div>
-<div class="white" id="8G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKnight2" draggable="true">&#9822;</span></div>
-<div class="black" id="8H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackRook2" draggable="true">&#9820;</span></div>
+<div class="white" id="8A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackRook1" draggable="true" ondragstart="onDragStart(event)">&#9820;</span></div>
+<div class="black" id="8B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKnight1" draggable="true" ondragstart="onDragStart(event)">&#9822;</span></div>
+<div class="white" id="8C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackBishop1" draggable="true" ondragstart="onDragStart(event)">&#9821;</span></div>
+<div class="black" id="8D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackQueen" draggable="true" ondragstart="onDragStart(event)">&#9819;</span></div>
+<div class="white" id="8E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKing" draggable="true" ondragstart="onDragStart(event)">&#9818;</span></div>
+<div class="black" id="8F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackBishop2" draggable="true" ondragstart="onDragStart(event)">&#9821;</span></div>
+<div class="white" id="8G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKnight2" draggable="true" ondragstart="onDragStart(event)">&#9822;</span></div>
+<div class="black" id="8H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackRook2" draggable="true" ondragstart="onDragStart(event)">&#9820;</span></div>
 <!-- 7th Row -->
-<div class="black" id="7A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn1" draggable="true">&#9823;</span></div>
-<div class="white" id="7B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn2" draggable="true">&#9823;</span></div>
-<div class="black" id="7C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn3" draggable="true">&#9823;</span></div>
-<div class="white" id="7D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn4" draggable="true">&#9823;</span></div>
-<div class="black" id="7E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn5" draggable="true">&#9823;</span></div>
-<div class="white" id="7F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn6" draggable="true">&#9823;</span></div>
-<div class="black" id="7G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn7" draggable="true">&#9823;</span></div>
-<div class="white" id="7H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn8" draggable="true">&#9823;</span></div>
+<div class="black" id="7A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn1" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="white" id="7B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn2" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="black" id="7C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn3" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="white" id="7D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn4" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="black" id="7E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn5" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="white" id="7F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn6" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="black" id="7G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn7" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
+<div class="white" id="7H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackPawn8" draggable="true" ondragstart="onDragStart(event)">&#9823;</span></div>
 <!-- 6th Row -->
 <div class="white" id="6A" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <div class="black" id="6B" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -74,23 +74,23 @@
 <div class="black" id="3G" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <div class="white" id="3H" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <!-- 2nd Row -->
-<div class="white" id="2A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn1" draggable="true" ondragover="allowDrop(event)">&#9817;</span></div>
-<div class="black" id="2B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn2" draggable="true">&#9817;</span></div>
-<div class="white" id="2C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn3" draggable="true">&#9817;</span></div>
-<div class="black" id="2D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn4" draggable="true">&#9817;</span></div>
-<div class="white" id="2E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn5" draggable="true">&#9817;</span></div>
-<div class="black" id="2F" ondrop="drop(event)" ondragover="allowDrops(event)"><span id="whitePawn6" draggable="true">&#9817;</span></div>
-<div class="white" id="2G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn7" draggable="true">&#9817;</span></div>
-<div class="black" id="2H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn8" draggable="true">&#9817;</span></div>
+<div class="white" id="2A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn1" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="black" id="2B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn2" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="white" id="2C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn3" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="black" id="2D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn4" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="white" id="2E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn5" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="black" id="2F" ondrop="drop(event)" ondragover="allowDrops(event)"><span id="whitePawn6" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="white" id="2G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn7" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
+<div class="black" id="2H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whitePawn8" draggable="true" ondragstart="onDragStart(event)">&#9817;</span></div>
 <!-- 1st Row -->
-<div class="black" id="1A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteRook1" draggable="true">&#9814;</span></div>
-<div class="white" id="1B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKnight1" draggable="true">&#9816;</span></div>
-<div class="black" id="1C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteBishop1" draggable="true">&#9815;</span></div>
-<div class="white" id="1D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteQueen" draggable="true">&#9813;</span></div>
-<div class="black" id="1E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKing" draggable="true">&#9812;</span></div>
-<div class="white" id="1F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteBishop2" draggable="true">&#9815;</span></div>
-<div class="black" id="1G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKnight2" draggable="true">&#9816;</span></div>
-<div class="white" id="1H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteRook2" draggable="true">&#9814;</span></div>
+<div class="black" id="1A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteRook1" draggable="true" ondragstart="onDragStart(event)">&#9814;</span></div>
+<div class="white" id="1B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKnight1" draggable="true"ondragstart="onDragStart(event)">&#9816;</span></div>
+<div class="black" id="1C" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteBishop1" draggable="true" ondragstart="onDragStart(event)">&#9815;</span></div>
+<div class="white" id="1D" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteQueen" draggable="true" ondragstart="onDragStart(event)">&#9813;</span></div>
+<div class="black" id="1E" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKing" draggable="true" ondragstart="onDragStart(event)">&#9812;</span></div>
+<div class="white" id="1F" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteBishop2" draggable="true" ondragstart="onDragStart(event)">&#9815;</span></div>
+<div class="black" id="1G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKnight2" draggable="true" ondragstart="onDragStart(event)">&#9816;</span></div>
+<div class="white" id="1H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteRook2" draggable="true" ondragstart="onDragStart(event)">&#9814;</span></div>
     </div>
 </div>
   <script src="script.js"></script>
