@@ -23,3 +23,16 @@ h1 {
 h1, h2, h3, h4, h5, h6, p {
     text-shadow: .5px .5px gray;
 }
+
+footer {
+    text-align: center;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1039px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

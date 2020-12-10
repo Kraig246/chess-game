@@ -92,3 +92,12 @@ a:active{
 #menu{
   display: flex;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 1039px) {
+    #boardReset, #moveUndo, a {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
