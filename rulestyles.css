@@ -28,6 +28,26 @@ footer {
     text-align: center;
 }
 
+a{
+  text-decoration: none;
+  font-size: 25px;
+  color: brown;
+  font-weight: bold;
+  float: left;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+a:hover{
+  font-style: italic;
+}
+
+a:active{
+  color: white;
+  font-style: italic;
+  font-size: 24px;
+}
+
 /* Media Query */
 
 @media only screen and (max-width: 1039px) {
