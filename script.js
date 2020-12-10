@@ -1,13 +1,26 @@
-function allowDrop(ev) {
-  ev.preventDefault();
+function onDragStart(event) {
+  event
+    .dataTransfer
+    .setData('text/plain', event.target.id);
 }
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", "whitePawn1");
+function allowDrop(event) {
+  event.preventDefault();
 }
 
-function drop(ev) {
-  ev.preventDefault();
-  let data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.querySelector("#whitePawn1"));
+function drop(event) {
+  const id = event
+    .dataTransfer
+    .getData('text');
+
+    const draggableElement = document.getElementById(id);
+    const white = event.target;
+    white.appendChild(draggableElement);
+
+    const black = event.target;
+    black.appendChild(draggableElement);
+
+    event
+    .dataTransfer
+    .clearData();
 }
