@@ -14,11 +14,19 @@
 <div class="container">
     <div id="menu">
         <a href="rules.html">How to play</a>
+        <!--
         <input type="button" value="Reset Board" id="boardReset"/>
         <input type="button" value="Undo Move" id="moveUndo"/>
+        -->
     </div>
     <!-- Playing Board -->
     <div id="playContent">
+
+        
+<!-- Side Spots to Put Taken Pieces -->
+
+<div id="sidespotleft" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
 <!-- 8th Row -->
 <div class="white" id="8A" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackRook1" draggable="true" ondragstart="onDragStart(event)">&#9820;</span></div>
 <div class="black" id="8B" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="blackKnight1" draggable="true" ondragstart="onDragStart(event)">&#9822;</span></div>
@@ -92,6 +100,7 @@
 <div class="black" id="1G" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteKnight2" draggable="true" ondragstart="onDragStart(event)">&#9816;</span></div>
 <div class="white" id="1H" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="whiteRook2" draggable="true" ondragstart="onDragStart(event)">&#9814;</span></div>
     </div>
+<div id="sidespotright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </div>
   <script src="script.js"></script>
 </body>
